@@ -2,8 +2,12 @@ import {createRouter, createWebHistory} from "vue-router"
 
 const routes = [
   {
-    path: [],
-    component: () => import('') //todo create HomePage
+    path: '/login',
+    component: () => import('@/pages/LoginPage')
+  },
+  {
+    path: '/register',
+    component: () => import('@/pages/RegisterPage')
   }
 ]
 
